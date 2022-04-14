@@ -1,0 +1,91 @@
+.form-container{
+
+    width: 500px;
+  border:1px solid 
+  #95A0A7;
+    border-radius: 8px;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-top: 90px;
+
+   
+}
+
+.form-title{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+text-align: center;
+}
+
+.input-group input{
+    display: block;
+    width: 400px;
+    height: 40px;
+    margin:5px 0;
+    border:none;
+    border:1px solid rgba(165, 155, 155, 0.671);
+
+}
+.input-group input:focus{
+font-size: 20px;
+}
+
+.inputBtn{
+    width: 400px;
+border:none;
+background: rgba(255, 153, 0, 0.3);
+border-radius: 5px;
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+padding: 0;
+}
+
+
+.inputBtn:hover{
+    background: orange;
+    color:white;
+}
+p{
+    text-align: center;
+}
+
+a{
+ color: rgb(255, 153, 0);
+  text-decoration: none;
+}
+
+.challange{
+    display: flex;
+color:#95A0A7;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.challange .to{
+    width: 100%;
+    margin: 10px 18px;
+    padding:1px;
+    background-color: #95A0A7;
+}
+
+.googleBtn{
+    width: 400px;
+    height: 50px;
+    margin-bottom: 40px;
+
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      
+}
+
+.googleBtn img{
+    width: 50px;
+    height: 50px;
+}
